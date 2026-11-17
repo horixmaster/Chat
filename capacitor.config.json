@@ -1,0 +1,6 @@
+{
+  "appId": "com.ultima.chatgpt",
+  "appName": "chat-gpt: Ultima",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

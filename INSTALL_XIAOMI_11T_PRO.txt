@@ -1,0 +1,19 @@
+====================================================
+  chat-gpt: Ultima — Xiaomi 11T Pro App Package
+====================================================
+
+METHOD 1: INSTANT INSTALL ON XIAOMI 11T PRO (NO PC NEEDED - 30 SECONDS)
+1. Extract this ZIP file on your Xiaomi 11T Pro using the built-in File Manager.
+2. Open Google Chrome on your phone (or host the 'www' folder on free Tiiny.host / GitHub Pages).
+   *Tip: In Chrome, go to your hosted link -> tap the 3 dots (top right) -> "Add to Home screen" -> "Install".*
+3. MIUI / HyperOS will install "Ultima AI" onto your home screen as a standalone full-screen app with its own app icon, offline support, and zero browser bars!
+
+METHOD 2: COMPILE A NATIVE .APK FILE (IF YOU HAVE A PC)
+1. Install Node.js and Android Studio on your PC.
+2. Open a terminal inside the extracted 'ultima_app' folder and run:
+   npm install
+   npx cap add android
+   npx cap copy
+   npx cap open android
+3. In Android Studio, click Build -> Build Bundle(s) / APK(s) -> Build APK(s).
+4. Copy the generated 'app-debug.apk' to your Xiaomi 11T Pro and tap it to install!
